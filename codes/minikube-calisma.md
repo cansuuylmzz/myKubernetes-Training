@@ -120,3 +120,13 @@ git commit -m "Your commit message": Değişiklikleri belirttiğin commit mesaj�
 git push: Commit'leri uzak depoya gönderir.
 
 ```
+
+##  kubectl get service -o wide
+
+Tüm namespace'lerdeki pod'ları genişletilmiş bilgiyle (wide formatta) gösterir.
+
+
+## kubectl get deployment -o yaml -n kube-system | less
+komuttan q ile çıkıyoruz.
+kube-system olarak yazan yer bizim namespace miz yani podumuz.
+
