@@ -130,3 +130,7 @@ Tüm namespace'lerdeki pod'ları genişletilmiş bilgiyle (wide formatta) göste
 komuttan q ile çıkıyoruz.
 kube-system olarak yazan yer bizim namespace miz yani podumuz.
 
+
+## kubectl describe pods storage-provisioner -n kube-system
+
+## kubectl logs etcd-minikube -n kube-system
