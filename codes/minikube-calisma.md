@@ -109,3 +109,14 @@ Pod'ları JSON formatında listeler.
 
 ```
 ## git pull && git add . && git commit -m "new commit" && git push
+
+```
+
+Bu komutlar ne yapar:
+
+git pull: Uzak depodan en son değişiklikleri çeker.
+git add .: Tüm dosya değişikliklerini sahneye ekler (staging area).
+git commit -m "Your commit message": Değişiklikleri belirttiğin commit mesajı ile commit eder.
+git push: Commit'leri uzak depoya gönderir.
+
+```
