@@ -80,3 +80,32 @@ hata çözümü için aşağıdaki komutu çalıştırıyoruz.
 
 ## kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yamlserviceaccount/metrics-server created
 
+## kubectl get pods -o yaml
+
+Pod'ları YAML formatında listeler.
+```
+
+apiVersion: v1
+items: []
+kind: List
+metadata:
+  resourceVersion: ""
+
+```
+
+## kubectl get pods -o json
+
+Pod'ları JSON formatında listeler.
+
+```
+{
+    "apiVersion": "v1",
+    "items": [],
+    "kind": "List",
+    "metadata": {
+        "resourceVersion": ""
+    }
+}
+
+```
+## git pull && git add . && git commit -m "new commit" && git push
